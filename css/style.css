@@ -29,3 +29,7 @@ body {
 h2 {
   padding-top: 55px; margin-top: -40px;
 }
+
+.maxw-180 {
+  max-width: 180px;
+}
