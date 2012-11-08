@@ -167,7 +167,7 @@ body {
 }
 
 a {
-  color: #0088cc;
+  color: #085258;
   text-decoration: none;
 }
 
@@ -3802,9 +3802,9 @@ input[type="submit"].btn.btn-mini {
 
 .nav-list > .active > a,
 .nav-list > .active > a:hover {
-  color: #ffffff;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
-  background-color: #0088cc;
+  color: #085258;
+  /*text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);*/
+  background-color: lightgray;
 }
 
 .nav-list [class^="icon-"] {

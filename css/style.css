@@ -7,7 +7,7 @@ body {
 }
 .bs-docs-sidenav {
   margin-top: 20px;
-  width: 166px;
+  width: 146px;
 }
 .bs-docs-sidenav.affix {
   top: 0;
@@ -23,7 +23,7 @@ body {
   border: 1px solid lightgray;
   display: block;
   margin: 0 0 -1px;
-  padding: 8px 14px;
+  padding: 18px 14px;
 }
 
 h2 {
