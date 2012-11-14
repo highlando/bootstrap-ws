@@ -15,7 +15,7 @@
     <script type='text/javascript'>
       jQuery(function($){
         $(".tweet").tweet({
-          username: "andrenarchy",
+          username: "SciPyTip",
           join_text: "auto",
           avatar_size: 32,
           count: 3,
@@ -40,7 +40,17 @@
         window.scrollBy(0,1); 
         window.scrollBy(0,-1); 
       });
-    </script>
+		</script>
+		<script>  
+			$(function ()  
+			{ $("#popbib1").popover();  
+			});  
+		</script> 
+		<script>  
+			$(function ()  
+			{ $("#popbib2").popover();  
+			});  
+		</script> 
     <link href="css/jquery.tweet.css" media="all" rel="stylesheet" type="text/css"/> 
     <link href="css/style.css" media="all" rel="stylesheet" type="text/css"/> 
   </head>
@@ -90,12 +100,33 @@
 					<p> Heiland, J. and Mehrmann, V. (2012).
 					<a href="http://dx.doi.org/10.1002/zamm.201100069">Distributed control of linearized Navier-Stokes equations via discretized input/output maps</a>.
 					<i>ZAMM - Journal of Applied Mathematics and Mechanics / Zeitschrift für Angewandte Mathematik und Mechanik</i>. WILEY-VCH Verlag, 257-274.  <br>
-					<a title="Preprint" href="http://www3.math.tu-berlin.de/preprints/files/HeiM11_ppt.pdf">Preprint</a></p>
-
+					<a class="smallbtn" title="Preprint" href="http://www3.math.tu-berlin.de/preprints/files/HeiM11_ppt.pdf">Preprint</a>
+					<a id="popbib2" class="smallbtn"  data-content="@article{HeiM12,<br>
+						Title = {Distributed control of linearized Navier-Stokes equations via discretized input/output maps},<br>
+						Author = {Heiland, J. and Mehrmann, V.},<br>
+						Pages = {257-274},<br>
+						Year = {2012},<br>
+						Doi = {10.1002/zamm.201100069},<br>
+						Journal = {ZAMM - Journal of Applied Mathematics and Mechanics / Zeitschrift für Angewandte Mathematik und Mechanik},<br>
+						Volume = {92},<br>
+						Number = {4},<br>
+						Publisher = {WILEY-VCH Verlag},<br>
+						Url2 = {http://dx.doi.org/10.1002/zamm.201100069}<br>
+						}" rel="popover" >bibtex</a></p>
 					<p> Heiland, J. and Mehrmann, V. and Schmidt, M. (2010).
 					<a href="http://www.springer.com/materials/mechanics/book/978-3-642-11734-3">A New Discretization Framework for Input/Output Maps and its Application to Flow Control</a>.
 					<i>Active Flow Control. Papers contributed to the Conference</i>. Springer, Berlin, 357-372. <br>
-					<a href="http://www3.math.tu-berlin.de/preprints/files/HeiMS10b_ppt.pdf">Preprint</a></p>
+					<a class="smallbtn" href="http://www3.math.tu-berlin.de/preprints/files/HeiMS10b_ppt.pdf">Preprint</a>
+					<a id="popbib1" class="smallbtn"  data-content="@inproceedings{HeiMS10,<br>
+						Title = {A New Discretization Framework for Input/Output Maps and its Application to Flow Control},<br>
+						Author = {Heiland, J. and Mehrmann, V. and Schmidt, M.},<br>
+						Booktitle = {Active Flow Control. Papers contributed to the Conference},<br>
+						Pages = {357-372},<br>
+						Year = {2010},<br>
+						Editor = {King, R.},<br>
+						Publisher = {Springer, Berlin},<br>
+						Url2 = {http://www.springer.com/materials/mechanics/book/978-3-642-11734-3}<br>
+}" rel="popover" >bibtex</a></p>
 					</section>
 
 					<section id="proceedings">
