@@ -34,6 +34,7 @@ h2 {
   max-width: 180px;
 }
 .maxw-100 {
+  width: 95%;
   max-width: 100px;
 }
 .smallbtn {
