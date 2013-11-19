@@ -1,0 +1,6 @@
+#!/bin/bash
+
+git pull
+FILETOEDIT=index.html
+echo $FILETOEDIT
+gvim --remote-silent $FILETOEDIT 
