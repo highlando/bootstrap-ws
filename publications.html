@@ -1,200 +1,200 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-		<title>Personal Homepage Jan Heiland PhD Student</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="starter-template-Dateien/bootstrap.css" rel="stylesheet">
-    <link href="starter-template-Dateien/sidebar.css" rel="stylesheet">
-    <link href="starter-template-Dateien/bootstrap-responsive.css" rel="stylesheet">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Personal Homepage Jan Heiland PhD Student</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link href="starter-template-Dateien/bootstrap.css" rel="stylesheet">
+<link href="starter-template-Dateien/sidebar.css" rel="stylesheet">
+<link href="starter-template-Dateien/bootstrap-responsive.css" rel="stylesheet">
 
-    <script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
-    <script type="text/javascript">
-      $(window).scroll(function(){
-        var saraj = document.getElementById('headerpic').clientHeight; 
-        //console.log(saraj)
-        $("#theFixed").css("top",Math.max(0,saraj-$(this).scrollTop()));
-      });
-    </script>
-    <script type="text/javascript">
-      $(window).ready(function() {
-        window.scrollBy(0,1); 
-        window.scrollBy(0,-1); 
-      });
-		</script>
-		<script>  
-			$(function ()  
-			{ $("#popbib1").popover();  
-			});  
-		</script> 
-		<script>  
-			$(function ()  
-			{ $("#popbib2").popover();  
-			});  
-		</script> 
-    <link href="css/jquery.tweet.css" media="all" rel="stylesheet" type="text/css"/> 
-    <link href="css/style.css" media="all" rel="stylesheet" type="text/css"/> 
-  </head>
+<script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(window).scroll(function(){
+		var saraj = document.getElementById('headerpic').clientHeight; 
+		//console.log(saraj)
+		$("#theFixed").css("top",Math.max(0,saraj-$(this).scrollTop()));
+		});
+</script>
+<script type="text/javascript">
+$(window).ready(function() {
+		window.scrollBy(0,1); 
+		window.scrollBy(0,-1); 
+		});
+</script>
+<script>  
+$(function ()  
+		{ $("#popbib1").popover();  
+		});  
+</script> 
+<script>  
+$(function ()  
+		{ $("#popbib2").popover();  
+		});  
+</script> 
+<link href="css/jquery.tweet.css" media="all" rel="stylesheet" type="text/css"/> 
+<link href="css/style.css" media="all" rel="stylesheet" type="text/css"/> 
+</head>
 
-  <body data-spy="scroll" data-target="#sidenav">
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <span class="brand">Jan Heiland</span>
-          <div style="height: 0px;" class="nav-collapse collapse">
-            <ul class="nav">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="teaching.html">Teaching</a></li>
-              <li class="active"><a href="publications.html">Publications</a></li>
-              <li><a href="things.html">Things</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-      </div>
-    </div>
-    <div class="row-fluid">
-			<div class="span12 hidden-phone">
-        <img id="headerpic" src="img/headerpic.jpg" width=100% border="0">
-      </div> 
-
-
-      <!-- Docs nav
-      ================================================== -->
-      <div class="row-fluid">
-        <div id="sidenav" class="span2 bs-docs-sidebar hidden-tablet hidden-phone">
-          <ul id="theFixed" style="position: fixed;" class="nav nav-list bs-docs-sidenav">
-            <li class="active"><a href="#Refereed Publications"><i class="icon-chevron-right"></i>Refereed Publications</a></li>
-            <li><a href="#proceedings"><i class="icon-chevron-right"></i>Proceedings</a></li>
-            <li><a href="#techreps"><i class="icon-chevron-right"></i>Preprints</a></li>
-            <li><a href="#talks"><i class="icon-chevron-right"></i>Talks</a></li>
-            <li><a href="#code"><i class="icon-chevron-right"></i>Code</a></li>
-          </ul>
-        </div>
-				<div class="span7">
-					<section id="Refereed Publications">
-					<h2>Refereed Publications</h2>
-					<p> Heiland, J. and Mehrmann, V. (2012).
-					<a href="http://dx.doi.org/10.1002/zamm.201100069">Distributed control of linearized Navier-Stokes equations via discretized input/output maps</a>.
-					<i>ZAMM - Journal of Applied Mathematics and Mechanics / Zeitschrift für Angewandte Mathematik und Mechanik</i>. WILEY-VCH Verlag, 257-274.  <br>
-					<a class="smallbtn" title="Preprint" href="http://www3.math.tu-berlin.de/preprints/files/HeiM11_ppt.pdf">Preprint</a>
-					<a id="popbib2" class="smallbtn"  data-content="@article{HeiM12,<br>
-						Title = {Distributed control of linearized Navier-Stokes equations via discretized input/output maps},<br>
-						Author = {Heiland, J. and Mehrmann, V.},<br>
-						Pages = {257-274},<br>
-						Year = {2012},<br>
-						Doi = {10.1002/zamm.201100069},<br>
-						Journal = {ZAMM - Journal of Applied Mathematics and Mechanics / Zeitschrift für Angewandte Mathematik und Mechanik},<br>
-						Volume = {92},<br>
-						Number = {4},<br>
-						Publisher = {WILEY-VCH Verlag},<br>
-						Url2 = {http://dx.doi.org/10.1002/zamm.201100069}<br>
-						}" rel="popover" >bibtex</a></p>
-					<p> Heiland, J. and Mehrmann, V. and Schmidt, M. (2010).
-					<a href="http://www.springer.com/materials/mechanics/book/978-3-642-11734-3">A New Discretization Framework for Input/Output Maps and its Application to Flow Control</a>.
-					<i>Active Flow Control. Papers contributed to the Conference</i>. Springer, Berlin, 357-372. <br>
-					<a class="smallbtn" href="http://www3.math.tu-berlin.de/preprints/files/HeiMS10b_ppt.pdf">Preprint</a>
-					<a id="popbib1" class="smallbtn"  data-content="@inproceedings{HeiMS10,<br>
-						Title = {A New Discretization Framework for Input/Output Maps and its Application to Flow Control},<br>
-						Author = {Heiland, J. and Mehrmann, V. and Schmidt, M.},<br>
-						Booktitle = {Active Flow Control. Papers contributed to the Conference},<br>
-						Pages = {357-372},<br>
-						Year = {2010},<br>
-						Editor = {King, R.},<br>
-						Publisher = {Springer, Berlin},<br>
-						Url2 = {http://www.springer.com/materials/mechanics/book/978-3-642-11734-3}<br>
-}" rel="popover" >bibtex</a></p>
-					</section>
-
-					<section id="proceedings">
-					<h3>Proceedings</h3>
-					<p> Heiland, J. and Baumann, M. and Walle, A. and Mehrmann, V. and Schäfer, M. (2010).
-					<a href="http://page.math.tu-berlin.de/%7eheiland/Publicat/P3-04_Heiland.pdf">Simulation and Control of Drop Size Distributions in Stirred Liquid/Liquid Systems</a>.
-					<i>Proc. 4th International Conference on Population Balance Modelling, September 15-17 2010, Berlin, Germany</i> </p>
-
-					<p>Herbst, A. and Mauss, J. and Heiland, J. and Orellano, A. (2009).
-					<a href="http://opus.kobv.de/tuberlin/volltexte/2009/2249/">Shape Optimization in Train Aerodynamics</a>.
-					<i>Proceedings of Euromech Colloquium 509 Vehicle Dynamics</i>
-					</p>
-					</section>
-
-					<section id="techreps">
-					<h3>Technical Reports</h3>
-					<p> Altmann, R. and Heiland, J. (2013).
-					<a href="http://www3.math.tu-berlin.de/preprints/files/Preprint-11-2013.pdf">Finite Element Decomposition and Minimal Extension for Flow Equations</a>.
-					<i>Preprint-Series of Department of Mathematics at TU Berlin</i> 11/2013 </p>
-					<p> Heiland, J. (2012).
-					<a href="http://www3.math.tu-berlin.de/preprints/files/Hei12_ppt.pdf">Diﬀerential-algebraic Riccati Decoupling for Linear-quadratic Optimal Control Problems for Semi-explicit Index-2 DAEs</a>.
-					<i>Preprint-Series of Department of Mathematics at TU Berlin</i> 06/2012 </p>
-
-					</section>
-					<section id="talks">
-					<h3>Conferences and Selected Talks</h3>
-
-					<p> Heiland, Jan (2013).
-					<a href="files/talks/gammta13.pdf">Decoupling and Optimal Control of Semi-explicit Semi-linear PDAEs of Index 2</a>.
-
-					<i></i></p>
-
-					<p> Heiland, Jan and Mehrmann, Volker (2011).
-					<a href="files/talks/gamm2012Heiland.pdf">Numerical Methods for PDAE Constraint Optimal Control - Differential-algebraic Riccati Decoupling</a>.
-					<i></i></p>
-
-					<p> Heiland, Jan (2011).
-					<a href="">Lqr Controller for a Descriptor System Approximating Boundary Control Systems for Dispersions in Turbulent Flows</a>.
-					<i></i> </p>
-
-					<p> Heiland, Jan (2010).
-					<a href="files/talks/dds101125.pdf">Boundary Control of Turbulent Flow Fields? I Try Linearizations and Flow Decompositions for Controller Design</a>.
-					<i></i> </p>
-
-					<p> Heiland, Jan (2011).
-					<a href="files/talks/ecce_heiland.pdf">Steuerung von Tropfengrößenverteilungen in gerührten Flüssig/flüssig-Systemen über lineare Zustandsraummodelle</a>.
-					<i></i> </p>
-
-					</section> 
-					<section id="code">
-					<h2>Code</h2>
-					Feel free to check out, improve, review and participate in the development of the following projects
-						<ul>
-							<li><a href="https://github.com/highlando/carlemanBilin">carleman</a> - a Python toolbox for bilinearization of nonlinear dynamical control systems. It uses symbolic calculation for the setup of the bilinearization and numeric evalution in the simulation</li>
-							<li><a href="https://github.com/colchizin/SAMPle">SAMPLE</a> - step aware media player. Project for an Android app that detects your step frequency and chooses the music with the same beats per minute</li>
-							<li><a href="https://github.com/highlando/highlando.github.io">homepage</a> - html code of this homepage for further use and distribution</li>
-						</ul>
-					</section>
-				</div> 
-
-				<div class="span3 hidden-tablet hidden-phone">
-					<h2>Daily Tips</h2>
-					<div class="tweet-outer">
-						<h4>for working with <a href="http://www.latex-project.org/">LaTeX</a></h4>
-						<a class="twitter-timeline"  href="https://twitter.com/TeXtip"  data-tweet-limit="4" data-widget-id="353291738850414592">Tweets by @TeXtip</a>
-						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-					</div>
-				</div> 
-			</div> 
+<body data-spy="scroll" data-target="#sidenav">
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+			<a class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</a>
+			<span class="brand">Jan Heiland</span>
+			<div style="height: 0px;" class="nav-collapse collapse">
+				<ul class="nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="teaching.html">Teaching</a></li>
+					<li class="active"><a href="publications.html">Publications</a></li>
+					<li><a href="things.html">Things</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
 		</div>
-        <!-- Le javascript
-        ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="starter-template-Dateien/bootstrap-transition.js"></script>
-        <script src="starter-template-Dateien/bootstrap-alert.js"></script>
-        <script src="starter-template-Dateien/bootstrap-modal.js"></script>
-        <script src="starter-template-Dateien/bootstrap-dropdown.js"></script>
-        <script src="starter-template-Dateien/bootstrap-scrollspy.js"></script>
-        <script src="starter-template-Dateien/bootstrap-tab.js"></script>
-        <script src="starter-template-Dateien/bootstrap-tooltip.js"></script>
-        <script src="starter-template-Dateien/bootstrap-popover.js"></script>
-        <script src="starter-template-Dateien/bootstrap-button.js"></script>
-        <script src="starter-template-Dateien/bootstrap-collapse.js"></script>
-        <script src="starter-template-Dateien/bootstrap-carousel.js"></script>
-        <script src="starter-template-Dateien/bootstrap-typeahead.js"></script>
+	</div>
+</div>
+<div class="row-fluid">
+	<div class="span12 hidden-phone">
+		<img id="headerpic" src="img/headerpic.jpg" width=100% border="0">
+	</div> 
 
-        </body></html>
+
+	<!-- Docs nav
+			================================================== -->
+	<div class="row-fluid">
+		<div id="sidenav" class="span2 bs-docs-sidebar hidden-tablet hidden-phone">
+			<ul id="theFixed" style="position: fixed;" class="nav nav-list bs-docs-sidenav">
+				<li class="active"><a href="#Refereed Publications"><i class="icon-chevron-right"></i>Refereed Publications</a></li>
+				<li><a href="#proceedings"><i class="icon-chevron-right"></i>Proceedings</a></li>
+				<li><a href="#techreps"><i class="icon-chevron-right"></i>Preprints</a></li>
+				<li><a href="#talks"><i class="icon-chevron-right"></i>Talks</a></li>
+				<li><a href="#code"><i class="icon-chevron-right"></i>Code</a></li>
+			</ul>
+		</div>
+		<div class="span7">
+			<section id="Refereed Publications">
+				<h2>Refereed Publications</h2>
+				<p> Heiland, J. and Mehrmann, V. (2012).
+				<a href="http://dx.doi.org/10.1002/zamm.201100069">Distributed control of linearized Navier-Stokes equations via discretized input/output maps</a>.
+				<i>ZAMM - Journal of Applied Mathematics and Mechanics / Zeitschrift für Angewandte Mathematik und Mechanik</i>. WILEY-VCH Verlag, 257-274.  <br>
+				<a class="smallbtn" title="Preprint" href="http://www3.math.tu-berlin.de/preprints/files/HeiM11_ppt.pdf">Preprint</a>
+				<a id="popbib2" class="smallbtn"  data-content="@article{HeiM12,<br>
+					Title = {Distributed control of linearized Navier-Stokes equations via discretized input/output maps},<br>
+					Author = {Heiland, J. and Mehrmann, V.},<br>
+					Pages = {257-274},<br>
+					Year = {2012},<br>
+					Doi = {10.1002/zamm.201100069},<br>
+					Journal = {ZAMM - Journal of Applied Mathematics and Mechanics / Zeitschrift für Angewandte Mathematik und Mechanik},<br>
+					Volume = {92},<br>
+					Number = {4},<br>
+					Publisher = {WILEY-VCH Verlag},<br>
+					Url2 = {http://dx.doi.org/10.1002/zamm.201100069}<br>
+					}" rel="popover" >bibtex</a></p>
+				<p> Heiland, J. and Mehrmann, V. and Schmidt, M. (2010).
+				<a href="http://www.springer.com/materials/mechanics/book/978-3-642-11734-3">A New Discretization Framework for Input/Output Maps and its Application to Flow Control</a>.
+				<i>Active Flow Control. Papers contributed to the Conference</i>. Springer, Berlin, 357-372. <br>
+				<a class="smallbtn" href="http://www3.math.tu-berlin.de/preprints/files/HeiMS10b_ppt.pdf">Preprint</a>
+				<a id="popbib1" class="smallbtn"  data-content="@inproceedings{HeiMS10,<br>
+					Title = {A New Discretization Framework for Input/Output Maps and its Application to Flow Control},<br>
+					Author = {Heiland, J. and Mehrmann, V. and Schmidt, M.},<br>
+					Booktitle = {Active Flow Control. Papers contributed to the Conference},<br>
+					Pages = {357-372},<br>
+					Year = {2010},<br>
+					Editor = {King, R.},<br>
+					Publisher = {Springer, Berlin},<br>
+					Url2 = {http://www.springer.com/materials/mechanics/book/978-3-642-11734-3}<br>
+					}" rel="popover" >bibtex</a></p>
+			</section>
+
+			<section id="proceedings">
+				<h3>Proceedings</h3>
+				<p> Heiland, J. and Baumann, M. and Walle, A. and Mehrmann, V. and Schäfer, M. (2010).
+				<a href="http://page.math.tu-berlin.de/%7eheiland/Publicat/P3-04_Heiland.pdf">Simulation and Control of Drop Size Distributions in Stirred Liquid/Liquid Systems</a>.
+				<i>Proc. 4th International Conference on Population Balance Modelling, September 15-17 2010, Berlin, Germany</i> </p>
+
+				<p>Herbst, A. and Mauss, J. and Heiland, J. and Orellano, A. (2009).
+				<a href="http://opus.kobv.de/tuberlin/volltexte/2009/2249/">Shape Optimization in Train Aerodynamics</a>.
+				<i>Proceedings of Euromech Colloquium 509 Vehicle Dynamics</i>
+				</p>
+			</section>
+
+			<section id="techreps">
+				<h3>Technical Reports</h3>
+				<p> Altmann, R. and Heiland, J. (2013).
+				<a href="http://www3.math.tu-berlin.de/preprints/files/Preprint-11-2013.pdf">Finite Element Decomposition and Minimal Extension for Flow Equations</a>.
+				<i>Preprint-Series of Department of Mathematics at TU Berlin</i> 11/2013 </p>
+				<p> Heiland, J. (2012).
+				<a href="http://www3.math.tu-berlin.de/preprints/files/Hei12_ppt.pdf">Diﬀerential-algebraic Riccati Decoupling for Linear-quadratic Optimal Control Problems for Semi-explicit Index-2 DAEs</a>.
+				<i>Preprint-Series of Department of Mathematics at TU Berlin</i> 06/2012 </p>
+
+			</section>
+			<section id="talks">
+				<h3>Conferences and Selected Talks</h3>
+
+				<p> Heiland, Jan (2013).
+				<a href="files/talks/gammta13.pdf">Decoupling and Optimal Control of Semi-explicit Semi-linear PDAEs of Index 2</a>.
+
+				<i></i></p>
+
+				<p> Heiland, Jan and Mehrmann, Volker (2011).
+				<a href="files/talks/gamm2012Heiland.pdf">Numerical Methods for PDAE Constraint Optimal Control - Differential-algebraic Riccati Decoupling</a>.
+				<i></i></p>
+
+				<p> Heiland, Jan (2011).
+				<a href="">Lqr Controller for a Descriptor System Approximating Boundary Control Systems for Dispersions in Turbulent Flows</a>.
+				<i></i> </p>
+
+				<p> Heiland, Jan (2010).
+				<a href="files/talks/dds101125.pdf">Boundary Control of Turbulent Flow Fields? I Try Linearizations and Flow Decompositions for Controller Design</a>.
+				<i></i> </p>
+
+				<p> Heiland, Jan (2011).
+				<a href="files/talks/ecce_heiland.pdf">Steuerung von Tropfengrößenverteilungen in gerührten Flüssig/flüssig-Systemen über lineare Zustandsraummodelle</a>.
+				<i></i> </p>
+
+			</section> 
+			<section id="code">
+				<h2>Code</h2>
+				Feel free to check out, improve, review and participate in the development of the following projects
+				<ul>
+					<li><a href="https://github.com/highlando/carlemanBilin">carleman</a> - a Python toolbox for bilinearization of nonlinear dynamical control systems. It uses symbolic calculation for the setup of the bilinearization and numeric evalution in the simulation</li>
+					<li><a href="https://github.com/colchizin/SAMPle">SAMPLE</a> - step aware media player. Project for an Android app that detects your step frequency and chooses the music with the same beats per minute</li>
+					<li><a href="https://github.com/highlando/highlando.github.io">homepage</a> - html code of this homepage for further use and distribution</li>
+				</ul>
+			</section>
+		</div> 
+
+		<div class="span3 hidden-tablet hidden-phone">
+			<h2>Daily Tips</h2>
+			<div class="tweet-outer">
+				<h4>for working with <a href="http://www.latex-project.org/">LaTeX</a></h4>
+				<a class="twitter-timeline"  href="https://twitter.com/TeXtip"  data-tweet-limit="4" data-widget-id="353291738850414592">Tweets by @TeXtip</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
+		</div> 
+	</div> 
+</div>
+<!-- Le javascript
+				================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="starter-template-Dateien/bootstrap-transition.js"></script>
+<script src="starter-template-Dateien/bootstrap-alert.js"></script>
+<script src="starter-template-Dateien/bootstrap-modal.js"></script>
+<script src="starter-template-Dateien/bootstrap-dropdown.js"></script>
+<script src="starter-template-Dateien/bootstrap-scrollspy.js"></script>
+<script src="starter-template-Dateien/bootstrap-tab.js"></script>
+<script src="starter-template-Dateien/bootstrap-tooltip.js"></script>
+<script src="starter-template-Dateien/bootstrap-popover.js"></script>
+<script src="starter-template-Dateien/bootstrap-button.js"></script>
+<script src="starter-template-Dateien/bootstrap-collapse.js"></script>
+<script src="starter-template-Dateien/bootstrap-carousel.js"></script>
+<script src="starter-template-Dateien/bootstrap-typeahead.js"></script>
+
+</body></html>
