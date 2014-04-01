@@ -1,249 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<meta charset="utf-8">
-		<title>Personal Homepage Jan Heiland PhD Student</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="">
-		<meta name="author" content="">
-		<link href="starter-template-Dateien/bootstrap.css" rel="stylesheet">
-		<link href="starter-template-Dateien/sidebar.css" rel="stylesheet">
-		<link href="starter-template-Dateien/bootstrap-responsive.css" rel="stylesheet">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Personal Homepage Jan Heiland PhD Student</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link href="starter-template-Dateien/bootstrap.css" rel="stylesheet">
+<link href="starter-template-Dateien/sidebar.css" rel="stylesheet">
+<link href="starter-template-Dateien/bootstrap-responsive.css" rel="stylesheet">
 
-		<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-		<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-
-		<!-- Le fav and touch icons -->
-		<!--    <link rel="shortcut icon" href="http://twitter.github.com/bootstrap/assets/ico/favicon.ico">
-		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png">
-		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
-		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
-		<link rel="apple-touch-icon-precomposed" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">-->
-		<script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 <script type="text/javascript">
-	$(window).scroll(function(){
-			var saraj = document.getElementById('headerpic').clientHeight; 
-			//console.log(saraj)
-			$("#theFixed").css("top",Math.max(0,saraj-$(this).scrollTop()));
-			});
+$(window).scroll(function(){
+		var saraj = document.getElementById('headerpic').clientHeight; 
+		//console.log(saraj)
+		$("#theFixed").css("top",Math.max(0,saraj-$(this).scrollTop()));
+		});
 </script>
 <script type="text/javascript">
-	$(window).ready(function() {
-			window.scrollBy(0,1); 
-			window.scrollBy(0,-1); 
-			});
+$(window).ready(function() {
+		window.scrollBy(0,1); 
+		window.scrollBy(0,-1); 
+		});
 </script>
 <link href="css/jquery.tweet.css" media="all" rel="stylesheet" type="text/css"/> 
 <link href="css/style.css" media="all" rel="stylesheet" type="text/css"/> 
-	</head>
+</head>
 
-	<body onload="window.scroll(0, 1)" data-spy="scroll" data-target="#sidenav">
-		<div class="navbar navbar-inverse navbar-fixed-top">
-			<div class="navbar-inner">
-				<div class="container">
-					<a class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
-					</a>
-					<span class="brand">Jan Heiland</span>
-					<div style="height: 0px;" class="nav-collapse collapse">
-						<ul class="nav">
-							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="teaching.html">Teaching</a></li>
-							<li><a href="publications.html">Publications</a></li>
-							<li><a href="things.html">Things</a></li>
-						</ul>
-					</div><!--/.nav-collapse -->
-				</div>
+<body onload="window.scroll(0, 1)" data-spy="scroll" data-target="#sidenav">
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+			<a class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</a>
+			<span class="brand">Jan Heiland</span>
+			<div style="height: 0px;" class="nav-collapse collapse">
+				<ul class="nav">
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="teaching.html">Teaching</a></li>
+					<li><a href="publications.html">Publications</a></li>
+					<li><a href="things.html">Things</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div>
+</div>
+<div class="row-fluid">
+	<div class="span12 hidden-phone">
+		<img id="headerpic" src="img/headerpic.jpg" width=100% border="0">
+	</div> 
+	<!-- Docs nav
+			================================================== -->
+	<div class="row-fluid">
+		<div class="span2">
+			<div id="sidenav" class="bs-docs-sidebar hidden-tablet hidden-phone">
+				<ul id="theFixed" style="position: fixed;" class="nav nav-list bs-docs-sidenav">
+					<li class="active"><a href="#position"><i class="icon-chevron-right"></i>Position</a></li>
+					<li><a href="#research"><i class="icon-chevron-right"></i>Research</a></li>
+					<li><a href="#cv"><i class="icon-chevron-right"></i>CV</a></li>
+				</ul>
 			</div>
 		</div>
-		<div class="row-fluid">
-			<div class="span12 hidden-phone">
-				<img id="headerpic" src="img/headerpic.jpg" width=100% border="0">
-			</div> 
-			<!-- Docs nav
-			================================================== -->
-			<div class="row-fluid">
-				<div class="span2">
-					<div id="sidenav" class="bs-docs-sidebar hidden-tablet hidden-phone">
-						<ul id="theFixed" style="position: fixed;" class="nav nav-list bs-docs-sidenav">
-							<li class="active"><a href="#position"><i class="icon-chevron-right"></i>Position</a></li>
-							<li><a href="#research"><i class="icon-chevron-right"></i>Research</a></li>
-							<li><a href="#cv"><i class="icon-chevron-right"></i>CV</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="span7">
-					<section id="position">
-					<h2>Position</h2>
-					<div class="row-fluid">
-						<div class="span8">
-							<div class="row-fluid">
-								<div class="span4">
-									<a href="http://www.mpg.de"><img src="img/minerva.jpg" class="img-polaroid maxw-120"></a>
-								</div>
-								<div class="span7">
-									<p>Researcher in the working group <a href="http://www.mpi-magdeburg.mpg.de/research/groups/csc">Computational Methods of  Systems and Control Theory</a> at the Max Planck Institute for Dynamics of Complex Systems in Magdeburg</p> 
-								</div>
+		<div class="span7">
+			<section id="position">
+				<h2>Position</h2>
+				<div class="row-fluid">
+					<div class="span8">
+						<div class="row-fluid">
+							<div class="span4">
+								<a href="http://www.mpg.de"><img src="img/minerva.jpg" class="img-polaroid maxw-120"></a>
 							</div>
-							<!--<h4>Contact</h4> -->
-							<address><br>
-								<strong>Office: S 0.04</strong><br>
-								Max Planck Institute for Dynamics of Complex Technical Systems <br>
-								Sandtorstr. 1, 39106 Magdeburg<br>
-								<abbr title="Phone">P:</abbr> +49 (0)391 6110 166
-								<!-- <strong>
+							<div class="span7">
+								<p>Researcher in the working group <a href="http://www.mpi-magdeburg.mpg.de/research/groups/csc">Computational Methods of  Systems and Control Theory</a> at the Max Planck Institute for Dynamics of Complex Systems in Magdeburg</p> 
+							</div>
+						</div>
+						<!--<h4>Contact</h4> -->
+						<address><br>
+							<strong>Office: S 0.04</strong><br>
+							Max Planck Institute for Dynamics of Complex Technical Systems <br>
+							Sandtorstr. 1, 39106 Magdeburg<br>
+							<abbr title="Phone">P:</abbr> +49 (0)391 6110 166
+							<!-- <strong>
 									<br>
 									Secretary
 									<br>
 								</strong>
 								<abbr title="Phone">P:</abbr>+49 (0)30 314 21264 (<a href="http://www.naturwissenschaften.tu-berlin.de/math/menue/einrichtungen/professurenfachgebiete/sekretariate/">K. Ullrich</a>) -->
-							</address>
-							<address>
-								<strong>Email</strong><br>
-								<a href="mailto:heiland.mpi-magdeburg.mpg.de">heiland<i class="icon-off"></i>mpi-magdeburg.mpg.de</a><br>
-								<a href="http://en.wikipedia.org/wiki/Pretty_Good_Privacy">PGP:</a> 3A53409A
-							</address>
-						</div> 
-						<div class="span4">
-							<img src="img/portraitpic.jpg" class="img-polaroid maxw-180">
-						</div> 
+						</address>
+						<address>
+							<strong>Email</strong><br>
+							<a href="mailto:heiland.mpi-magdeburg.mpg.de">heiland<i class="icon-off"></i>mpi-magdeburg.mpg.de</a><br>
+							<a href="http://en.wikipedia.org/wiki/Pretty_Good_Privacy">PGP:</a> 3A53409A
+						</address>
 					</div> 
-					</section>
-					<section id="research">
-					<h2>Research</h2>
-					<p>Broadly speaking, I investigate control problems that are formulated for so called differential-algebraic equations (DAEs), i.e. systems of equations where the variables have to obey both differential and algebraic relations. Beside from general statements about existence of solutions, I work on formulations that are beneficial for the approximate solution of the problems on the computer.</p>
-					<p>When it comes to solving complex problems on the computer, models of reduced order - a second research interest of mine - are necessary.</p> 
-					<p>The class of equations, I consider, contain the Navier-Stokes equations that are widely used for modelling and simulating flow phenomena.</p>  
-					<h4>Current Topics</h4> 
-					My most current work concerns
-					<ul> <li> Existence and representation of solutions for DAEs in Hilbert-spaces</li> </ul> 
-					This is a generalization of my work on
-					<ul> <li> Existence and representation of solutions linear-quadratic optimal control problems for semi-explicit index-2 DAEs</li> </ul> 
-					<h4>Earlier Work</h4> 
-					In my diploma thesis, I generalized an approach to reduced order modelling via discrete input/output behavior to the DAE setting that fits linearized Navier-Stokes equations.<br>
-					During my time in the private sector, I was concerned with shape optimization of trains in simulation and wind tunnel experiments.<br>
-					During the first two years as a research assistant I worked together with chemical engineers and computer scientists in the research project <a href=http://www3.math.tu-berlin.de/numerik/mt/NumMat/DFGProjekte/Drocon/>DROCON</a> on modeling, simulation and control of liquid/liquid dispersions 
-					</section>
-					<section id="cv">
-					<h2>Curriculum Vitae</h2>
-					<div class="row-fluid">
-						<div class="span3">
-							<h4>Summary </h4> 	
-						</div>
-						<div class="span9">
-							<ul>
-								<li> PhD in applied mathematics (expected date of graduation: Feb 2014)</li> 
-								<li> two years as a student employee in Bombardier department of aerodynamics</li> 
-								<li> educational background in mathematics and fluid dynamics</li> 
-								<li> excellent grades and scholarship holder of “deutsche Studienstiftung“</li> 
-							</ul> 
-						</div>
+					<div class="span4">
+						<img src="img/portraitpic.jpg" class="img-polaroid maxw-180">
+					</div> 
+				</div> 
+			</section>
+			<section id="research">
+				<h2>Research</h2>
+				<p>Broadly speaking, I investigate control problems that are formulated for so called differential-algebraic equations (DAEs), i.e. systems of equations where the variables have to obey both differential and algebraic relations. Beside from general statements about existence of solutions, I work on formulations that are beneficial for the approximate solution of the problems on the computer.</p>
+				<p>When it comes to solving complex problems on the computer, models of reduced order - a second research interest of mine - are necessary.</p> 
+				<p>The class of equations, I consider, contain the Navier-Stokes equations that are widely used for modelling and simulating flow phenomena.</p>  
+				<h4>Current Topics</h4> 
+				My most current work concerns
+				<ul> <li> Existence and representation of solutions for DAEs in Hilbert-spaces</li> </ul> 
+				This is a generalization of my work on
+				<ul> <li> Existence and representation of solutions linear-quadratic optimal control problems for semi-explicit index-2 DAEs</li> </ul> 
+				<h4>Earlier Work</h4> 
+				In my diploma thesis, I generalized an approach to reduced order modelling via discrete input/output behavior to the DAE setting that fits linearized Navier-Stokes equations.<br>
+				During my time in the private sector, I was concerned with shape optimization of trains in simulation and wind tunnel experiments.<br>
+				During the first two years as a research assistant I worked together with chemical engineers and computer scientists in the research project <a href=http://www3.math.tu-berlin.de/numerik/mt/NumMat/DFGProjekte/Drocon/>DROCON</a> on modeling, simulation and control of liquid/liquid dispersions 
+			</section>
+			<section id="cv">
+				<h2>Curriculum Vitae</h2>
+				<div class="row-fluid">
+					<div class="span3">
+						<h4>Summary </h4> 	
 					</div>
-					<div class="row-fluid">
-						<div class="span2">
-							<h4>Work </h4> 	
-						</div>
-						<div class="span10">
-							<div class="row-fluid">
-								<div class="span3">
-									<p><b>Nov 2013 – today</b> </p> 	
-								</div>
-								<div class="span9">
-									<p>Researcher at Max Planck Institute for Dynamics of Complex Systems in Magdeburg</p>
-								</div>
-							</div>
-							<div class="row-fluid">
-								<div class="span3">
-									<p><b>Oct 09 – Nov 13 </b> </p> 	
-								</div>
-								<div class="span9">
-									<p>Full-time research position at TU Berlin, department of mathematics</p>
-								</div>
-							</div>
-							<div class="row-fluid">
-								<div class="span3">
-									<p><b>Jun 07 – Sep 09</b> </p> 	
-								</div>
-								<div class="span9">
-									<p>Student Employee: Bombardier Transportation, department of aerodynamics: implementation of an automated approach for shape optimization, wind tunnel testings</p>
-								</div>
-							</div>
-						</div>
+					<div class="span9">
+						<ul>
+							<li> PhD in applied mathematics (expected date of graduation: Feb 2014)</li> 
+							<li> two years as a student employee in Bombardier department of aerodynamics</li> 
+							<li> educational background in mathematics and fluid dynamics</li> 
+							<li> excellent grades and scholarship holder of “deutsche Studienstiftung“</li> 
+						</ul> 
 					</div>
-					<div class="row-fluid">
-						<div class="span2">
-							<h4>Education </h4> 	
+				</div>
+				<div class="row-fluid">
+					<div class="span2">
+						<h4>Work </h4> 	
+					</div>
+					<div class="span10">
+						<div class="row-fluid">
+							<div class="span3">
+								<p><b>Nov 2013 – today</b> </p> 	
+							</div>
+							<div class="span9">
+								<p>Researcher at Max Planck Institute for Dynamics of Complex Systems in Magdeburg</p>
+							</div>
 						</div>
-						<div class="span10">
-							<div class="row-fluid">
-								<div class="span3">
-									<p><b>Jul 09</b> </p> 	
-								</div>
-								<div class="span9">
-									<p> Diploma of TU Berlin in technical mathematics</p>
-								</div>
+						<div class="row-fluid">
+							<div class="span3">
+								<p><b>Oct 09 – Nov 13 </b> </p> 	
 							</div>
-							<div class="row-fluid">
-								<div class="span3">
-									<p><b>Sep 05 – Sep 06</b> </p> 	
-								</div>
-								<div class="span9">
-									<p> Studies abroad at Polytechnical University of Saint Petersburg, Russia</p>
-								</div>
+							<div class="span9">
+								<p>Full-time research position at TU Berlin, department of mathematics</p>
 							</div>
-							<div class="row-fluid">
-								<div class="span3">
-									<p><b>Oct 03</b> </p> 	
-								</div>
-								<div class="span9">
-									<p> Matriculation to program “Technomathematik” at TU Dresden</p><br>
-								</div>
+						</div>
+						<div class="row-fluid">
+							<div class="span3">
+								<p><b>Jun 07 – Sep 09</b> </p> 	
 							</div>
-							<div class="row-fluid">
-								<div class="span2">
-									<p><b>Languages</b> </p> 	
-								</div>
-								<div class="span5">
-									<p>German: mother tongue</p>
-									<p>English: business fluent </p>
-									<p>Russian: business fluent </p>
-								</div>
-								<div class="span5">
-									<p>Python, Matlab: expert	</p> 
-									<p>Fortran, Java: intermediate</p>
-								</div>
+							<div class="span9">
+								<p>Student Employee: Bombardier Transportation, department of aerodynamics: implementation of an automated approach for shape optimization, wind tunnel testings</p>
 							</div>
 						</div>
 					</div>
-					</section> 
+				</div>
+				<div class="row-fluid">
+					<div class="span2">
+						<h4>Education </h4> 	
+					</div>
+					<div class="span10">
+						<div class="row-fluid">
+							<div class="span3">
+								<p><b>Jul 09</b> </p> 	
+							</div>
+							<div class="span9">
+								<p> Diploma of TU Berlin in technical mathematics</p>
+							</div>
+						</div>
+						<div class="row-fluid">
+							<div class="span3">
+								<p><b>Sep 05 – Sep 06</b> </p> 	
+							</div>
+							<div class="span9">
+								<p> Studies abroad at Polytechnical University of Saint Petersburg, Russia</p>
+							</div>
+						</div>
+						<div class="row-fluid">
+							<div class="span3">
+								<p><b>Oct 03</b> </p> 	
+							</div>
+							<div class="span9">
+								<p> Matriculation to program “Technomathematik” at TU Dresden</p><br>
+							</div>
+						</div>
+						<div class="row-fluid">
+							<div class="span2">
+								<p><b>Languages</b> </p> 	
+							</div>
+							<div class="span5">
+								<p>German: mother tongue</p>
+								<p>English: business fluent </p>
+								<p>Russian: business fluent </p>
+							</div>
+							<div class="span5">
+								<p>Python, Matlab: expert	</p> 
+								<p>Fortran, Java: intermediate</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section> 
 
-				</div> 
-				<div class="span3 hidden-tablet hidden-phone">
-					<h2>My Tweets</h2>
-					<div class="tweet-outer">
-						<h5>from the convex hull of mathematics, logic, philosophy, and speech.</h5>
-						<a class="twitter-timeline"  href="https://twitter.com/jnhlnd"  data-tweet-limit="4" data-widget-id="353272588983742464">Tweets by @jnhlnd</a>
-						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-					</div>
-				</div> 
-			</div> 
-		</div>
-		<!-- Le javascript
+		</div> 
+		<div class="span3 hidden-tablet hidden-phone">
+			<h2>My Tweets</h2>
+			<div class="tweet-outer">
+				<h5>from the convex hull of mathematics, logic, philosophy, and speech.</h5>
+				<a class="twitter-timeline"  href="https://twitter.com/jnhlnd"  data-tweet-limit="4" data-widget-id="353272588983742464">Tweets by @jnhlnd</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
+		</div> 
+	</div> 
+</div>
+<!-- Le javascript
 		================================================== -->
-		<!-- Placed at the end of the document so the pages load faster -->
-		<script src="starter-template-Dateien/bootstrap-transition.js"></script>
-		<script src="starter-template-Dateien/bootstrap-alert.js"></script>
-		<script src="starter-template-Dateien/bootstrap-modal.js"></script>
-		<script src="starter-template-Dateien/bootstrap-dropdown.js"></script>
-		<script src="starter-template-Dateien/bootstrap-scrollspy.js"></script>
-		<script src="starter-template-Dateien/bootstrap-tab.js"></script>
-		<script src="starter-template-Dateien/bootstrap-tooltip.js"></script>
-		<script src="starter-template-Dateien/bootstrap-popover.js"></script>
-		<script src="starter-template-Dateien/bootstrap-button.js"></script>
-		<script src="starter-template-Dateien/bootstrap-collapse.js"></script>
-		<script src="starter-template-Dateien/bootstrap-carousel.js"></script>
-		<script src="starter-template-Dateien/bootstrap-typeahead.js"></script>
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="starter-template-Dateien/bootstrap-transition.js"></script>
+<script src="starter-template-Dateien/bootstrap-alert.js"></script>
+<script src="starter-template-Dateien/bootstrap-modal.js"></script>
+<script src="starter-template-Dateien/bootstrap-dropdown.js"></script>
+<script src="starter-template-Dateien/bootstrap-scrollspy.js"></script>
+<script src="starter-template-Dateien/bootstrap-tab.js"></script>
+<script src="starter-template-Dateien/bootstrap-tooltip.js"></script>
+<script src="starter-template-Dateien/bootstrap-popover.js"></script>
+<script src="starter-template-Dateien/bootstrap-button.js"></script>
+<script src="starter-template-Dateien/bootstrap-collapse.js"></script>
+<script src="starter-template-Dateien/bootstrap-carousel.js"></script>
+<script src="starter-template-Dateien/bootstrap-typeahead.js"></script>
 
 </body></html>
