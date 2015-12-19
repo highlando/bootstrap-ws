@@ -88,7 +88,8 @@ $(function ()
 		<div id="sidenav" class="span2 bs-docs-sidebar hidden-tablet hidden-phone">
 			<ul id="theFixed" style="position: fixed;" class="nav nav-list bs-docs-sidenav">
 				<li class="active"><a href="#Refereed Publications"><i class="icon-chevron-right"></i>Refereed Publications</a></li>
-				<li><a href="#proceedings"><i class="icon-chevron-right"></i>Proceedings</a></li>
+				<li><a href="#openreview"><i class="icon-chevron-right"></i>Open Review Articles</a></li>
+				<li><a href="#proceedings"><i class="icon-chevron-right"></i>Proceedings and Posters</a></li>
 				<li><a href="#techreps"><i class="icon-chevron-right"></i>Preprints</a></li>
 				<li><a href="#theses"><i class="icon-chevron-right"></i>Theses</a></li>
 				<li><a href="#code"><i class="icon-chevron-right"></i>Code</a></li>
@@ -150,8 +151,26 @@ $(function ()
 					}" rel="popover" >bibtex</a></p>
 			</section>
 
+			<section id="openreview">
+				<h3>Open Review Articles</h3>
+				<p> Benner, P. and Heiland, J. (2015).
+				<a href="https://www.scienceopen.com/document/vid/bb5f1992-da64-45fc-bbae-141ff8be018c">Time-dependent Dirichlet Conditions in Finite Element Discretizations</a>.
+				<i>ScienceOpen Research</i>.</p>
+				<div class="alert alert-info">
+				<i class="icon-star"></i>
+				<i class="icon-star"></i>
+				<i class="icon-star"></i>
+				<i class="icon-star-empty"></i>
+						These publications can be reviewed and rated by any reasonably advanced researcher. So, if you have read it, please consider leaving a feedback on the article's webpage.
+				</div>
+			</section>
+
 			<section id="proceedings">
-				<h3>Proceedings</h3>
+				<h3>Proceedings and Posters</h3>
+				<p> Baumann, M., Benner, P. and Heiland, J. (2015).
+				<a href="https://www.scienceopen.com/document/vid/47383ae1-fc56-48b1-b059-b52f4a130795">A generalized POD space-time Galerkin scheme for parameter dependent dynamical systems</a>. <i> Poster at </i><a href="http://indico.sissa.it/event/4/overview">MoRePaS 2015 - Model Reduction of Parametrized Systems III</a>, Trieste, Italy.<br>
+				<a class="smallbtn" title="Posterblitz" href="files/posters/15-genpodspatim-blitz.pdf">Posterblitz</a>
+				</p>
 				<p> Heiland, J. and Baumann, M. and Walle, A. and Mehrmann, V. and Schäfer, M. (2010).
 				<a href="http://page.math.tu-berlin.de/%7eheiland/Publicat/P3-04_Heiland.pdf">Simulation and Control of Drop Size Distributions in Stirred Liquid/Liquid Systems</a>.
 				<i>Proc. 4th International Conference on Population Balance Modelling, September 15-17 2010, Berlin, Germany</i> </p>
@@ -195,6 +214,10 @@ $(function ()
 			<section id="code">
 				<h2>Code</h2>
 				Feel free to check out, improve, review and participate in the development of the following projects
+				<h4>spacetime-genpod-burgers</h4>
+						Implementation of our space-time-parameter generalized POD and space-time Galerkin for solving Burgers' equation for various diffusion parameters.
+					[<a href="https://gitlab.mpi-magdeburg.mpg.de/heiland/spacetime-genpod-burgers">Code</a>]
+					[<a href="https://www.scienceopen.com/document/vid/47383ae1-fc56-48b1-b059-b52f4a130795">Related Poster</a>]
 				<h4>dolfin-navier-scipy</h4>
 				A Python package that provides an interface between *scipy* and *FEniCS* in view of solving Navier-Stokes Equations. *FEniCS* is used to perform a Finite Element discretization of the equations. The assembled coefficients are exported as sparse matrices for use in *scipy*. Nonlinear and time-dependent parts are evaluated and assembled on demand. Visualization is done via the *FEniCS* interface to *paraview*. <br>
 					[<a href="https://github.com/highlando/dolfin_navier_scipy">Code</a>]
