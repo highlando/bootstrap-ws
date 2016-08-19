@@ -37,6 +37,10 @@ h2 {
   width: 95%;
   max-width: 100px;
 }
+.maxw-50 {
+  width: 95%;
+  max-width: 50px;
+}
 .smallbtn {
     -moz-border-bottom-colors: none;
     -moz-border-left-colors: none;
