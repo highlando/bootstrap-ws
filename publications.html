@@ -26,6 +26,9 @@ $(window).ready(function() {
 		});
 </script>
 <script>  
+$(function () {
+  $('[data-toggle="popover"]').popover()
+});
 $(function ()  
 		{ $("#popbib1").popover();  
 		});  
@@ -147,6 +150,15 @@ $(function ()
 				<a href="http://dx.doi.org/10.1051/m2an/2015029">Finite Element Decomposition and Minimal Extension for Flow Equations</a>.
 				<i>M2AN - Mathematical Modelling and Numerical Analysis</i>. ESAIM. Vol. 49(5), pp. 1489-1509.<br>
 				<a class="smallbtn" href="http://www3.math.tu-berlin.de/preprints/files/Preprint-11-2013.pdf">Preprint</a>
+				<a class="smallbtn"
+			 			data-toggle="popover"
+			 			data-placement="top"
+			 data-content="Copyright held by: ESAIM: Mathematical Modelling and Numerical Analysis <br>
+			 Link to publisher: <a href='http://dx.doi.org/10.1051/m2an/2015029'> DOI:10.1051/m2an/2015029 </a><br>
+			Publisher's version: <a href='files/postprints/AltH15_M2AN_MinExtensionFlows-1.pdf'>[pdf]</a>"
+						data-html="true">
+						Postprint
+				</a>
 				<a id="popbib4" class="smallbtn"  data-content="
 					@article{AltH15,<br> Author = {{Robert Altmann} and {Jan Heiland}},<br> Title = {Finite Element Decomposition and Minimal Extension for Flow Equations},<br> Journal = {ESAIM: M2AN},<br> Year = 2015,<br> Pages = {1489 - 1509},<br> Volume = {49},<br> Number = {5},<br> DOI = {10.1051/m2an/2015029},<br> url= {http://dx.doi.org/10.1051/m2an/2015029}}
 					" rel="popover" >bibtex</a></p>
