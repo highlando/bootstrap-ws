@@ -99,7 +99,7 @@ for discmodes in discmodeslist:
 plt.figure(222)
 plt.semilogy(2*N-np.array(discmodeslist), np.array(errlist), 's')
 plt.title('model dimension vs. relative approximation error')
-plt.show(block=False)
+plt.show(block=True)
 
 
 # ### what goes wrong here?
