@@ -10,7 +10,8 @@
     <link href="starter-template-Dateien/sidebar.css" rel="stylesheet">
     <link href="starter-template-Dateien/bootstrap-responsive.css" rel="stylesheet">
 
-    <script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+		<!-- <script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script> -->
+    <script language="javascript" src="starter-template-dateien/jquery.js" type="text/javascript"></script>
     <script type="text/javascript">
       $(window).scroll(function(){
         var saraj = document.getElementById('headerpic').clientHeight; 
@@ -73,11 +74,30 @@
 				<p>
 				<i class="icon-fast-forward"></i> An outlet for my thoughts that range in the thin layer that separates Twitter and math journals.
 				</p>
+				<h4><i class="icon-envelope"></i> <a id="bul:reantipod" href="bulletins/reantipod.html">180826: Re: Failing POD</a></h4>
+				<div class="row-fluid">
+					<div class="span6">
+						<div class="bulletin">
+								It was pointed out by A.C. Antoulas that in this example case, POD is prone to failure, because the systems controllability space is not full. Still, POD can capture exactly the controllable part (and give reasonable results for certain initial conditions). When exploring this, I found a major mistake in my implementation of the <a href="bul:antipod">antipod example.</a>
+						<br>
+						<i class="icon-chevron-right"></i><a href="bulletins/antipod-re-aca.html">[Please expand]</a><br>
+						<i class="icon-file"></i>
+						<a href="bulletins/files/antipod-re-aca.py">[Python Code]</a>
+						<a href="bulletins/files/antipod-re-aca.ipynb">[Ipython Notebook]</a>
+					</div>
+					</div>
+					<div class="span6">
+								<a href="bulletins/antipod.html">
+									<img src="bulletins/files/acapod-errs.png" class="img-polaroid">
+								</a>
+					</div>
+				</div>
 				<h4><i class="icon-envelope"></i> <a id="bul:antipod" href="bulletins/antipod.html">180410: Failing POD</a></h4>
 				<div class="row-fluid">
 					<div class="span6">
 						<div class="bulletin">
-						POD is a popular approach for model reduction. Here is an illustration that POD may completely fail to give a decent approximation because it only considers data from a trajectory while ignoring the dynamics of the model. And this failure is not detected a-priori from the singular values of the snapshot matrix. <br>
+								POD is a popular approach for model reduction. <del>Here is an illustration that POD may completely fail to give a decent approximation because it only considers data from a trajectory while ignoring the dynamics of the model. And this failure is not detected a-priori from the singular values of the snapshot matrix.</del> <br>
+						<i class="icon-chevron-left"></i><a href="#bul:reantipod">[Erratum]</a><br>
 						<i class="icon-chevron-right"></i><a href="bulletins/antipod.html">[Please expand]</a><br>
 						<i class="icon-file"></i>
 						<a href="bulletins/files/antipod.py">[Python Code]</a>
