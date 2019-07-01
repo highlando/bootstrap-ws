@@ -1,0 +1,37 @@
+\documentclass[a4paper,10pt]{scrartcl}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb,amsmath,amsthm,mathrsfs,mathtools,amscd}
+\usepackage{hyperref}
+\usepackage{multibib}
+
+\newcites{rev}{Refereed Publications}
+\newcites{prc}{Proceedings}
+\newcites{ppt}{Preprints and Open Review Publications}
+\newcites{msc}{Theses}
+
+%opening
+\title{List of Publications}
+\author{Jan Heiland}
+
+\begin{document}
+\maketitle
+\nociterev*
+\bibliographystylerev{plainyr-rev}
+\bibliographyrev{mprev}
+\newpage
+\nociteprc*
+\bibliographystyleprc{plainyr-rev}
+\bibliographyprc{mpprc}
+
+\nociteppt*
+\bibliographystyleppt{plainyr-rev}
+\bibliographyppt{mpppt}
+
+\nocitemsc*
+\bibliographystylemsc{plainyr-rev}
+\bibliographymsc{mpmsc}
+\vfill
+Please see my webpage \url{http://janheiland.de/publications.html} for poster and code publications and for weblinks to the publications.
+\end{document}
+
